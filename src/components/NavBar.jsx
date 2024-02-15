@@ -30,7 +30,7 @@ const NavBar = () => {
               <li key={index}>
                 <Link
                   aria-label={link.title}
-                  className="text-onxy font-georgia text-base font-normal leading-normal transition-all ease-in-out duration-300"
+                  className="text-onxy font-georgia relative before:absolute before:w-0 before:hover:w-full before:transition-all before:duration-300 before:h-[2px] before:bg-primary-orange before:left-[50%] before:hover:left-0 before:bottom-[-10px] text-base font-normal leading-normal transition-all ease-in-out duration-300"
                   href={link.path}
                 >
                   {link.title}
@@ -40,7 +40,9 @@ const NavBar = () => {
           })}
         </ul>
         <div className="flex gap-2">
-       <span className="cursor-pointer"><SearchIcon/></span>
+          <span className="cursor-pointer">
+            <SearchIcon />
+          </span>
           <div className="sm:block hidden">
             <CustomSolidButton content="Free Consultation" />
           </div>
@@ -86,7 +88,7 @@ const NavBar = () => {
                 <li key={index}>
                   <Link
                     aria-label={link.title}
-                    className="text-onxy font-georgia text-base font-normal leading-normal transition-all ease-in-out duration-300"
+                    className="text-onxy font-georgia relative before:absolute before:w-0 before:hover:w-full before:transition-all before:duration-300 before:h-[2px] before:bg-primary-orange before:left-[50%] before:hover:left-0 before:bottom-[-10px] text-base font-normal leading-normal transition-all ease-in-out duration-300"
                     href={link.path}
                     onClick={sidebarHandler}
                   >

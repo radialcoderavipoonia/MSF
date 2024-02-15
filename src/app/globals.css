@@ -32,3 +32,11 @@
     right: 100%;
   }
 }
+
+/* svg  */
+.hover_arrow:hover svg path {
+  fill: white !important;
+}
+.group:hover .choose_svg svg path {
+  fill: white !important;
+}

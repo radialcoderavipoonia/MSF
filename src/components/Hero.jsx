@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import CustomSolidButton from "./common/CustomSolidButton";
+import CustomTransparentButton from "./common/CustomTransparentButton";
 
 const Hero = () => {
   return (
@@ -66,9 +67,12 @@ const Hero = () => {
             </div>
           </div>
         </div>
-          <p className="text-primary-blue text-220 absolute left-[50px] bottom-[170px] font-georgia font-normal leading-110 opacity-[0.04] stewart_text_animation"> Stewart </p>
-          <p className="absolute bottom-0 right-[144px] font-georgia text-200 leading-110 font-normal opacity-[0.05] text_webkit text-white finaldi_text_animation"> Finaldi </p>
-      
+        <p className="text-primary-blue text-220 absolute left-[50px] bottom-[170px] font-georgia font-normal leading-110 opacity-[0.04] stewart_text_animation">
+          Stewart
+        </p>
+        <p className="absolute bottom-0 right-[144px] font-georgia text-200 leading-110 font-normal opacity-[0.05] text_webkit text-white finaldi_text_animation">
+          Finaldi
+        </p>
       </div>
     </>
   );

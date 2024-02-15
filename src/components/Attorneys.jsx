@@ -26,7 +26,7 @@ const Attorneys = () => {
               Attorneys
             </p>
             <p className="pt-3 mb-0 pb-1 lg:text-start text-center text-primary-blue text-40 font-georgia font-normal leading-120">
-              Refer Your{" "}
+              Refer Your
               <span className="text-primary-orange">Sexual Abuse Case</span> to
               Us
             </p>
