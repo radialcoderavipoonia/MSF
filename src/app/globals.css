@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: georgia;
+  src: url(../../public/assets/font/georgia/georgia.ttf);
+}
+.text_webkit {
+  text-shadow: -3px -3px 0 #192335, 3px -3px 0 #192335, -3px 3px 0 #192335,
+    3px 3px 0 #192335;
+}
+.stewart_text_animation {
+  animation: stewart 6s linear infinite;
+}
+@keyframes stewart {
+  0% {
+    left: 0%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+.finaldi_text_animation {
+  animation: finaldi 6s linear infinite;
+}
+@keyframes finaldi {
+  0% {
+    right: 0%;
+  }
+  100% {
+    right: 100%;
+  }
+}
