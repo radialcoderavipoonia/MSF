@@ -27,5 +27,15 @@ export const WhyChoose = [
     description:
       "The Firm has recovered Over $ 2 billion dollars on behalf's of clients from school districts religious institutions, municipalities sports & youth organizations fortune 500 Companies ",
   },
-
+];
+export const Blog = [
+  {
+    image: "/assets/images/blogpost/blog_first.png",
+  },
+  {
+    image: "/assets/images/blogpost/blog_second.png",
+  },
+  {
+    image: "/assets/images/blogpost/blog_third.png",
+  },
 ];

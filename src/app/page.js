@@ -4,9 +4,10 @@ import NavBar from "@/components/NavBar";
 import Support from "@/components/Support";
 import Victim from "@/components/Victim";
 import WhyChooseUs from "@/components/WhyChooseUs";
-// Import Swiper styles
-// import "swiper/swiper.min.css";
-// import "swiper/components/navigation/navigation.min.css";
+// Import css files
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import BlogPost from "@/components/BlogPost";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <Hero />
         <Victim />
         <WhyChooseUs />
+        <BlogPost />
         <Attorneys />
         <Support />
       </div>
