@@ -24,7 +24,7 @@ const Representation = () => {
             </p>
             <div className="pt-4 pb-7">
               {SexualViolence.map((value, index) => (
-                <div className="flex sm:flex-row flex-col sm:gap-10 gap-3 pt-3">
+                <div key={index} className="flex sm:flex-row flex-col sm:gap-10 gap-3 pt-3">
                   <div className="flex gap-3 lg:w-[242px] sm:w-1/2">
                     <span>
                       {" "}
@@ -92,7 +92,7 @@ const Representation = () => {
               </p>
               <div className="pt-[10px]">
                 {Liable.map((value, index) => (
-                  <div className="flex gap-3 items-center sm:pt-[18px] pt-3">
+                  <div key={index} className="flex gap-3 items-center sm:pt-[18px] pt-3">
                     <span>
                       <BlueRightIcon />
                     </span>
