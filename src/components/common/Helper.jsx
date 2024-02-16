@@ -98,12 +98,33 @@ export const Liable = [
     title: "The abuser who was directly responsible",
   },
   {
-    title: "Any coworkers, staff members, or others who knew of the abuse but did not come forward to report it",
+    title:
+      "Any coworkers, staff members, or others who knew of the abuse but did not come forward to report it",
   },
   {
-    title: "Any larger organizations or institutions who failed to take action against the abuse",
+    title:
+      "Any larger organizations or institutions who failed to take action against the abuse",
   },
   {
-    title: "Any potential law enforcement officials who exercised negligence in allowing the abuse to occur",
+    title:
+      "Any potential law enforcement officials who exercised negligence in allowing the abuse to occur",
+  },
+];
+export const Institution = [
+  {
+    leftTitle: "Church",
+    rightTitle: "Hospital/Doctor",
+  },
+  {
+    leftTitle: "School",
+    rightTitle: "Youth/Sports Organization",
+  },
+  {
+    leftTitle: "Uber/Lyft",
+    rightTitle: "Nursing/Assisted Living",
+  },
+  {
+    leftTitle: "Massage",
+    rightTitle: "Friends/Family",
   },
 ];

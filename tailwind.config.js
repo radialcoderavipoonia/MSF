@@ -34,6 +34,8 @@ module.exports = {
         "primary-blue": "#192335",
         "primary-orange": "#CD530F",
         harp: "#E7EFF4",
+        "gray_goose": "#CFCFCF",
+        "light_blue": "#9BBCD0",
       },
       fontSize: {
         "40": "40px",

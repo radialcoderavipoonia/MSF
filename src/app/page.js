@@ -13,6 +13,7 @@ import TrimNews from "@/components/TrimNews";
 import WhyWeAre from "@/components/WhyWeAre";
 import Representation from "@/components/Representation";
 import California from "@/components/California";
+import GetUpdated from "@/components/GetUpdated";
 
 export default function Home() {
   return (
@@ -29,6 +30,7 @@ export default function Home() {
         <Representation />
         <California />
         <TrimNews />
+        <GetUpdated />
         <Support />
       </div>
     </>
