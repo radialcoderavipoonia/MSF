@@ -48,7 +48,7 @@ const Hero = () => {
                   Manly Stewart & Finaldi
                 </p>
                 <h2 className="xl:text-6xl font-georgia text-5xl pt-3 lg:text-start text-center text-primary-blue font-normal leading-110">
-                  America's Premier Law Firm for
+                  America&apos;s Premier Law Firm for
                   <span className="text-primary-orange ps-2">
                     Sexual Abuse Cases
                   </span>

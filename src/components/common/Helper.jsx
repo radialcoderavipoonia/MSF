@@ -73,5 +73,37 @@ export const News = [
   {
     image: "/assets/images/trim_news/the_wall_street.svg",
   },
-
+];
+export const SexualViolence = [
+  {
+    titleLeftBlue: "Clergy abuse",
+    titleRightBlue: "School abuse",
+  },
+  {
+    titleLeftOrange: "Abuse occurring in sports organizations",
+    titleRightBlue: "Abuse at youth group and summer camps",
+  },
+  {
+    titleLeftBlue: "Cases of",
+    titleLeftOrange: "online sexual harassment",
+    titleRightOrange: "Elder sexual abuse in nursing homes",
+  },
+  {
+    titleLeftBlue: "Uber/Lyft sexual abuse",
+    titleRightBlue: "Sexual abuse by doctors",
+  },
+];
+export const Liable = [
+  {
+    title: "The abuser who was directly responsible",
+  },
+  {
+    title: "Any coworkers, staff members, or others who knew of the abuse but did not come forward to report it",
+  },
+  {
+    title: "Any larger organizations or institutions who failed to take action against the abuse",
+  },
+  {
+    title: "Any potential law enforcement officials who exercised negligence in allowing the abuse to occur",
+  },
 ];

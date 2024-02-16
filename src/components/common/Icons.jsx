@@ -137,3 +137,43 @@ export const Compassion = () => {
     </svg>
   );
 };
+export const OrangeRightIcon = () => {
+  return (
+    <svg
+      width="20"
+      height="20"
+      viewBox="0 0 20 20"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <rect width="20" height="20" rx="10" fill="#CD530F" />
+      <path
+        d="M5 10L8 13L14 7"
+        stroke="white"
+        stroke-width="1.2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+  );
+};
+export const BlueRightIcon = () => {
+  return (
+    <svg
+      width="20"
+      height="20"
+      viewBox="0 0 20 20"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <rect width="20" height="20" rx="10" fill="#192335" />
+      <path
+        d="M5 10L8 13L14 7"
+        stroke="white"
+        stroke-width="1.2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+  );
+};

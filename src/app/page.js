@@ -11,6 +11,8 @@ import BlogPost from "@/components/BlogPost";
 import GlobalSettlement from "@/components/GlobalSettlement";
 import TrimNews from "@/components/TrimNews";
 import WhyWeAre from "@/components/WhyWeAre";
+import Representation from "@/components/Representation";
+import California from "@/components/California";
 
 export default function Home() {
   return (
@@ -24,6 +26,8 @@ export default function Home() {
         <WhyWeAre />
         <Attorneys />
         <GlobalSettlement />
+        <Representation />
+        <California />
         <TrimNews />
         <Support />
       </div>
