@@ -47,9 +47,6 @@ const NavBar = () => {
             <CustomSolidButton content="Free Consultation" />
           </div>
         </div>
-        <div className="hidden lg:flex">
-          <button></button>
-        </div>
         {/* Hamburger menu for mobile */}
         <button
           aria-label="menu icon"

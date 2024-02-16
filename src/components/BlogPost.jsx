@@ -28,13 +28,15 @@ const BlogPost = () => {
         settings: {
           slidesToShow: 1, // adjusts slides to show at this breakpoint
           slidesToScroll: 1, // adjusts slides to scroll at this breakpoint
+          autoplay: true,
+          speed: 200,
         },
       },
       // Add more breakpoints if needed
     ],
   };
   return (
-    <div className="container xl:max-w-[1140px] mx-auto xl:px-0 px-3 lg:pb-16 py-16 relative">
+    <div className="container xl:max-w-[1139px] mx-auto xl:px-0 px-3 lg:pb-16 py-16 relative">
       <div className="relative z-30">
         <p className="text-onxy text-center font-georgia text-2xl font-normal leading-120 tracking-[7.2px] mb-0">
           New Insights

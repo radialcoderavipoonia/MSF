@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { News } from "./Helper";
+import { News } from "./common/Helper";
 import Image from "next/image";
 import Slider from "react-slick";
 

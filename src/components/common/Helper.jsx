@@ -59,19 +59,19 @@ export const Settlement = [
 ];
 export const News = [
   {
-    image: "/assets/images/trimnews/time.svg",
+    image: "/assets/images/trim_news/time.svg",
   },
   {
-    image: "/assets/images/trimnews/newyork_times.svg",
+    image: "/assets/images/trim_news/newyork_times.svg",
   },
   {
-    image: "/assets/images/trimnews/today.svg",
+    image: "/assets/images/trim_news/today.svg",
   },
   {
-    image: "/assets/images/trimnews/60_minutes.svg",
+    image: "/assets/images/trim_news/60_minutes.svg",
   },
   {
-    image: "/assets/images/trimnews/the_wall_street.svg",
+    image: "/assets/images/trim_news/the_wall_street.svg",
   },
 
 ];

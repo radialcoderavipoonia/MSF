@@ -26,6 +26,8 @@ const WhyChooseUs = () => {
         settings: {
           slidesToShow: 1, // adjusts slides to show at this breakpoint
           slidesToScroll: 1, // adjusts slides to scroll at this breakpoint
+          autoplay: true,
+          speed: 200,
         },
       },
       // Add more breakpoints if needed
@@ -48,13 +50,13 @@ const WhyChooseUs = () => {
             <div className="pt-12 flex lg:justify-start justify-center gap-4">
               <button
                 onClick={() => slider?.current?.slickPrev()}
-                className="flex justify-center items-center w-[48px] h-[48px] hover:bg-primary-blue hover_arrow hover:border-transparent transition-all duration-300 cursor-pointer border-[1px] border-primary-blue"
+                className="flex justify-center items-center w-[48px] h-[48px] hover:bg-primary-blue hover_arrow hover:border-transparent transition-all duration-300 cursor-pointer border-[1px] border-primary-blue relative z-30"
               >
                 <SliderArrow />
               </button>
               <button
                 onClick={() => slider?.current?.slickNext()}
-                className="flex justify-center items-center rotate-[180deg] w-[48px] h-[48px] hover:bg-primary-blue hover_arrow hover:border-transparent cursor-pointer transition-all duration-300 border-[1px] border-primary-blue"
+                className="flex justify-center items-center rotate-[180deg] w-[48px] h-[48px] hover:bg-primary-blue hover_arrow hover:border-transparent cursor-pointer transition-all duration-300 border-[1px] border-primary-blue relative z-30"
               >
                 <SliderArrow />
               </button>
@@ -64,10 +66,10 @@ const WhyChooseUs = () => {
             <div className="lg:pt-20 relative z-30">
               <Slider ref={slider} {...settings}>
                 {WhyChoose.map((value, index) => (
-                  <div key={index} className="group w-[33%] ">
-                    <div className="bg-white border-[1px] me-3 border-primary-blue py-12 px-7 hover:bg-primary-blue transition-all duration-300">
+                  <div key={index} className="group sm:w-[33%] ">
+                    <div className="bg-white border-[1px] sm:me-3 sm:ms-0 ms-3 border-primary-blue py-12 px-7 hover:bg-primary-blue transition-all duration-1000">
                       <div className="mx-auto max-w-[187px] group-hover:max-w-[unset] text-center ">
-                        <p className="flex justify-center choose_svg group-hover:transition-all group-hover:duration-300">
+                        <p className="flex justify-center choose_svg">
                           {value.image}
                         </p>
                         <p className="pt-[30px] group-hover:pt-5 max-w-[157px] mx-auto text-center group-hover:max-w-[unset] mb-0 text-onxy group-hover:text-white font-georgia text-xl font-bold leading-normal">

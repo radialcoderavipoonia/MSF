@@ -40,3 +40,9 @@
 .group:hover .choose_svg svg path {
   fill: white !important;
 }
+
+
+/* slider  */
+.swiper {
+  width: 100%;
+}
