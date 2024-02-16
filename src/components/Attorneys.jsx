@@ -7,14 +7,14 @@ const Attorneys = () => {
     <div className="container xl:max-w-[1140px] mx-auto xl:px-0 px-3 lg:py-[154px] md:py-20 sm:py-16 py-12">
       <div className="flex lg:flex-row flex-col-reverse gap-6">
         <Image
-          src="/assets/images/attorneys/girl.png"
+          src="/assets/images/attorneys/girl.webp"
           width={485}
           height={475}
           alt="attorneys girl image"
           className="w-[485px] h-[475px] lg:block hidden"
         />
         <Image
-          src="/assets/images/attorneys/girl_small_screen.png"
+          src="/assets/images/attorneys/girl_small_screen.webp"
           width={485}
           height={475}
           alt="attorneys girl image"

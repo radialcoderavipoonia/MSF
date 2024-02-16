@@ -32,7 +32,7 @@ const WhyChooseUs = () => {
     ],
   };
   return (
-    <div className="relative overflow-hidden">
+    <div className="overflow-hidden">
       <div className="container xl:max-w-[1140px] mx-auto xl:px-0 px-3 lg:py-[154px] py-20 relative z-30">
         <div className="flex lg:flex-row flex-col gap-16">
           <div className="lg:w-[22%]">
@@ -46,20 +46,26 @@ const WhyChooseUs = () => {
               ensuring your satisfaction every step of the way.
             </p>
             <div className="pt-12 flex lg:justify-start justify-center gap-4">
-              <button onClick={() => slider?.current?.slickPrev()} className="flex justify-center items-center w-[48px] h-[48px] hover:bg-primary-blue hover_arrow hover:border-transparent transition-all duration-300 cursor-pointer border-[1px] border-primary-blue">
+              <button
+                onClick={() => slider?.current?.slickPrev()}
+                className="flex justify-center items-center w-[48px] h-[48px] hover:bg-primary-blue hover_arrow hover:border-transparent transition-all duration-300 cursor-pointer border-[1px] border-primary-blue"
+              >
                 <SliderArrow />
               </button>
-              <button onClick={() => slider?.current?.slickNext()} className="flex justify-center items-center rotate-[180deg] w-[48px] h-[48px] hover:bg-primary-blue hover_arrow hover:border-transparent cursor-pointer transition-all duration-300 border-[1px] border-primary-blue">
+              <button
+                onClick={() => slider?.current?.slickNext()}
+                className="flex justify-center items-center rotate-[180deg] w-[48px] h-[48px] hover:bg-primary-blue hover_arrow hover:border-transparent cursor-pointer transition-all duration-300 border-[1px] border-primary-blue"
+              >
                 <SliderArrow />
               </button>
             </div>
           </div>
-          <div className="lg:w-[73%]">
-            <div className="lg:pt-20">
+          <div className="lg:w-[73%] relative">
+            <div className="lg:pt-20 relative z-30">
               <Slider ref={slider} {...settings}>
                 {WhyChoose.map((value, index) => (
                   <div key={index} className="group w-[33%] ">
-                    <div className="bg-white border-[1px] me-3 border-primary-blue py-12 px-7 hover:bg-primary-blue ">
+                    <div className="bg-white border-[1px] me-3 border-primary-blue py-12 px-7 hover:bg-primary-blue transition-all duration-300">
                       <div className="mx-auto max-w-[187px] group-hover:max-w-[unset] text-center ">
                         <p className="flex justify-center choose_svg group-hover:transition-all group-hover:duration-300">
                           {value.image}
@@ -76,10 +82,10 @@ const WhyChooseUs = () => {
                 ))}
               </Slider>
             </div>
+            <div className="bg-harp w-[200%] h-[205px] absolute lg:top-0 top-[-25%] lg:left-[-21px] left-[-50%]"></div>
           </div>
         </div>
       </div>
-      <div className="bg-harp xl:w-[70%] lg:w-[73%] w-full h-[205px] absolute lg:top-[150px] bottom-0 right-0 "></div>
     </div>
   );
 };

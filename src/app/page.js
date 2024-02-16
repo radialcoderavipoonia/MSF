@@ -8,6 +8,8 @@ import WhyChooseUs from "@/components/WhyChooseUs";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import BlogPost from "@/components/BlogPost";
+import GlobalSettlement from "@/components/GlobalSettlement";
+import TrimNews from "@/components/common/TrimNews";
 
 export default function Home() {
   return (
@@ -19,6 +21,8 @@ export default function Home() {
         <WhyChooseUs />
         <BlogPost />
         <Attorneys />
+        <GlobalSettlement />
+        <TrimNews />
         <Support />
       </div>
     </>

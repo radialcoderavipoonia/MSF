@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React from "react";
 import CustomSolidButton from "./common/CustomSolidButton";
-import CustomTransparentButton from "./common/CustomTransparentButton";
 
 const Hero = () => {
   return (
@@ -19,7 +18,7 @@ const Hero = () => {
               />
               {/* small screen  */}
               <Image
-                src="/assets/images/hero/office_small_screen.png"
+                src="/assets/images/hero/office_small_screen.webp"
                 width={385}
                 height={375}
                 alt="hero office image"
@@ -35,7 +34,7 @@ const Hero = () => {
                 />
                 {/* small screen  */}
                 <Image
-                  src="/assets/images/hero/balance_weight_small_screen.png"
+                  src="/assets/images/hero/balance_weight_small_screen.webp"
                   width={385}
                   height={375}
                   alt="hero balance weight image"

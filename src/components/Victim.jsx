@@ -4,9 +4,9 @@ import Image from "next/image";
 
 const Victim = () => {
   return (
-    <div className="relative">
-      <div className="container xl:max-w-[1140px] mx-auto xl:px-0 px-3 py-12 relative z-30">
-        <div className="flex lg:flex-row flex-col lg:items-end items-center gap-[68px]">
+      <div className="container xl:max-w-[1140px] mx-auto xl:px-0 px-3 py-12 relative ">
+      <div className="relative z-30">
+         <div className="flex lg:flex-row flex-col lg:items-end items-center gap-[68px]">
           <div>
             <p className="pt-1 text-primary-blue font-georgia lg:text-start text-center text-40 font-normal leading-120 mb-0">
               Were you a <span className="text-primary-orange">victim</span> of
@@ -28,7 +28,7 @@ const Victim = () => {
         <div className="max-w-[948px] ms-auto pt-8 flex md:flex-row flex-col gap-8">
           <div className="relative">
             <Image
-              src="/assets/images/victim/juvenile_probation_camp_woman.png"
+              src="/assets/images/victim/juvenile_probation_camp_woman.webp"
               width={458}
               height={564}
               alt="victim woman image"
@@ -49,7 +49,7 @@ const Victim = () => {
           </div>
           <div className="relative">
             <Image
-              src="/assets/images/victim/california_schools_child.png"
+              src="/assets/images/victim/california_schools_child.webp"
               width={458}
               height={564}
               alt="victim child image"
@@ -69,9 +69,9 @@ const Victim = () => {
             </div>
           </div>
         </div>
+       </div>
+        <div className="bg-harp w-[500%] h-[546px] absolute top-0 lg:right-[97px] right-0"></div>
       </div>
-      <div className="bg-harp xl:w-[1193px] w-full h-[546px] absolute top-0"></div>
-    </div>
   );
 };
 

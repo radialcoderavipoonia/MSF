@@ -24,7 +24,7 @@ const BlogPost = () => {
         },
       },
       {
-        breakpoint: 600, // defines the breakpoint width
+        breakpoint: 640, // defines the breakpoint width
         settings: {
           slidesToShow: 1, // adjusts slides to show at this breakpoint
           slidesToScroll: 1, // adjusts slides to scroll at this breakpoint
@@ -34,8 +34,8 @@ const BlogPost = () => {
     ],
   };
   return (
-    <div className="relative">
-      <div className="container xl:max-w-[1140px] mx-auto xl:px-0 px-3 lg:pb-16 py-16 relative z-30">
+    <div className="container xl:max-w-[1140px] mx-auto xl:px-0 px-3 lg:pb-16 py-16 relative">
+      <div className="relative z-30">
         <p className="text-onxy text-center font-georgia text-2xl font-normal leading-120 tracking-[7.2px] mb-0">
           New Insights
         </p>
@@ -45,14 +45,14 @@ const BlogPost = () => {
         <div className="pt-12 relative">
           <Slider ref={slider} {...settings}>
             {Blog.map((value, index) => (
-              <div key={index} className="me-6">
-                <div className="relative md:me-6">
+              <div key={index} className="sm:pe-6">
+                <div className="relative">
                   <Image
                     src={value.image}
                     width={364}
                     height={403}
-                    alt="blog first image"
-                    className="md:w-[364px] w-full md:h-[403px]"
+                    alt="blog post image"
+                    className=" w-full md:h-[403px]"
                   />
                   <p className="text-white font-georgia text-base font-bold leading-normal absolute top-[16px] left-[16px]">
                     12 February 2024
@@ -85,7 +85,7 @@ const BlogPost = () => {
           </button>
         </div>
       </div>
-      <div className="bg-harp xl:w-[1268px] w-full h-[317px] absolute bottom-0"></div>
+      <div className="bg-harp sm:w-[300%] w-full h-[317px] absolute bottom-0 xl:right-[24px] sm:right-[34px]"></div>
     </div>
   );
 };
