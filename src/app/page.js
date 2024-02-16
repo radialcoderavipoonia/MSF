@@ -14,6 +14,7 @@ import WhyWeAre from "@/components/WhyWeAre";
 import Representation from "@/components/Representation";
 import California from "@/components/California";
 import GetUpdated from "@/components/GetUpdated";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -32,6 +33,7 @@ export default function Home() {
         <TrimNews />
         <GetUpdated />
         <Support />
+        <Footer />
       </div>
     </>
   );
