@@ -28,9 +28,14 @@ export default function Home() {
         <WhyWeAre />
         <Attorneys />
         <GlobalSettlement />
-        <Representation />
-        <California />
-        <TrimNews />
+        <div className="relative">
+          <div className="relative z-30">
+            <Representation />
+          <California />
+          <TrimNews />
+          </div>
+          <div className="bg-harp h-[942px] w-full absolute left-0 lg:top-[40%] top-[25%] lg:translate-y-[-40%]"></div>
+        </div>
         <GetUpdated />
         <Support />
         <Footer />
