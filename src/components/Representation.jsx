@@ -62,7 +62,7 @@ const Representation = () => {
             </p>
             <div className="pt-[75px]">
               <Image
-                src="/assets/images/representation/lawyer_women.png"
+                src="/assets/images/representation/lawyer_women.webp"
                 width={542}
                 height={764}
                 alt="girl lawyer"
@@ -72,7 +72,7 @@ const Representation = () => {
           </div>
           <div className="flex lg:flex-col flex-col-reverse">
             <Image
-              src="/assets/images/representation/lawyer_man.png"
+              src="/assets/images/representation/lawyer_man.webp"
               width={542}
               height={753}
               alt="girl lawyer"

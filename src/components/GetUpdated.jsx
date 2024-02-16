@@ -15,7 +15,7 @@ const GetUpdated = () => {
     { value: "option3", label: "Russia" },
   ];
   return (
-    <div className="bg-[url('/assets/images/background/get_updated.png')] bg-contain bg-no-repeat">
+    <div className="bg-[url('/assets/images/background/get_updated.webp')] bg-contain lg:bg-cover bg-no-repeat">
       <div className="container xl:max-w-[970px] mx-auto xl:px-0 px-3 py-[62px]">
         <div className="bg-white sm:py-[54px] py-10 lg:px-[181px] sm:px-20 px-4">
           <p className="text-center text-onxy font-georgia text-2xl font-normal leading-120 tracking-[7.2px] mb-0">

@@ -42,7 +42,7 @@ const California = () => {
           </div>
           <div className="translate-y-[-126px]">
             <Image
-              src="/assets/images/california/sexual_abuse_lawyers.png"
+              src="/assets/images/california/sexual_abuse_lawyers.webp"
               width={598}
               height={630}
               alt="sexual abuse lawyer"

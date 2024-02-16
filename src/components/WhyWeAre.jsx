@@ -61,7 +61,7 @@ const WhyWeAre = () => {
           }}
         >
           <SwiperSlide>
-            <div className="bg-[url('/assets/images/why_we_are/slider_second_bg.png')] bg-cover bg-no-repeat py-11 px-7 max-w-[799px]">
+            <div className="bg-[url('/assets/images/why_we_are/slider_second_bg.webp')] bg-cover bg-no-repeat py-11 px-7 max-w-[799px]">
               <p className="text-center max-w-[459px] text-white mx-auto font-georgia text-xl font-bold leading-normal mb-0">
                 Nationally Recognized for Representing Sexual Abuse Survivors
               </p>
@@ -98,7 +98,7 @@ const WhyWeAre = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/assets/images/why_we_are/slider_third.png"
+              src="/assets/images/why_we_are/slider_third.webp"
               width={799}
               height={451}
               alt="slider first image"
@@ -107,7 +107,7 @@ const WhyWeAre = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/assets/images/why_we_are/slider_first.png"
+              src="/assets/images/why_we_are/slider_first.webp"
               width={799}
               height={451}
               alt="slider first image"
