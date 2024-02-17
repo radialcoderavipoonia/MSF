@@ -10,9 +10,9 @@ const GetUpdated = () => {
     { value: "option1", label: "England" },
     { value: "option2", label: "Australia" },
     { value: "option3", label: "Canada" },
-    { value: "option3", label: "Germany" },
-    { value: "option3", label: "New York" },
-    { value: "option3", label: "Russia" },
+    { value: "option4", label: "Germany" },
+    { value: "option5", label: "New York" },
+    { value: "option6", label: "Russia" },
   ];
   return (
     <div className="bg-[url('/assets/images/background/get_updated.webp')] bg-contain lg:bg-cover bg-no-repeat">

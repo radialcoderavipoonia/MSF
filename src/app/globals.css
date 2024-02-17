@@ -10,7 +10,8 @@
   font-family: "georgia-bold";
   src: url(../../public/assets/font/georgia/georgiab.ttf);
 }
-body , html{
+body,
+html {
   overflow-x: hidden;
 }
 .text_webkit {
@@ -48,8 +49,29 @@ body , html{
   fill: white !important;
 }
 
-
 /* slider  */
 .swiper {
   width: 100%;
+  overflow: unset !important;
+}
+.swiper-slide-active .active_silde {
+  opacity: 1 !important;
+}
+
+/* SLIDER BULLETS */
+.swiper-pagination .swiper-pagination-bullet {
+  background: #cd530f !important;
+  width: 14px !important;
+  height: 14px !important;
+}
+
+.swiper-pagination .swiper-pagination-bullet-active {
+  width: 41px !important;
+  border-radius: 20px !important;
+}
+.swiper-pagination {
+  position: absolute;
+}
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+  bottom: -70px !important;
 }

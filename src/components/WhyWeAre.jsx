@@ -1,5 +1,4 @@
 "use client";
-import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -9,7 +8,6 @@ import "swiper/css/pagination";
 
 // import required modules
 import { EffectCoverflow, Pagination } from "swiper/modules";
-import Image from "next/image";
 
 const WhyWeAre = () => {
   return (
@@ -38,7 +36,7 @@ const WhyWeAre = () => {
             modifier: 1,
             slideShadows: true,
           }}
-          pagination={false}
+          pagination={true}
           modules={[EffectCoverflow, Pagination]}
           className="mySwiper"
           breakpoints={{
@@ -61,58 +59,118 @@ const WhyWeAre = () => {
           }}
         >
           <SwiperSlide>
-            <div className="bg-[url('/assets/images/why_we_are/slider_second_bg.webp')] bg-cover bg-no-repeat py-11 px-7 max-w-[799px]">
-              <p className="text-center max-w-[459px] text-white mx-auto font-georgia-bold text-xl font-bold leading-normal mb-0">
-                Nationally Recognized for Representing Sexual Abuse Survivors
-              </p>
-              <p className="pt-4 text-white font-georgia text-base font-normal leading-normal text-center">
-                Manly, Stewart & Finaldi is regarded as America’s leading law
-                firm for sexual abuse cases. Our founder and managing partner,
-                <span className="text-primary-orange">
-                  attorney John C. Manly
-                </span>
-                , has been successfully representing sexual abuse victims for
-                over 20 years. He has been included in Super Lawyers® and named
-                to California’s Top 100 Attorneys by the Los Angeles Daily
-                Journal
-              </p>
-              <p className="pt-6 text-white font-georgia text-base font-normal leading-normal text-center">
-                Victim’s advocate and California sexual abuse lawyer John Manly
-                understands that sexual abuse is an ongoing crisis and has
-                devoted himself to becoming a national leader in the legal
-                battle against these brutal crimes. As a firm that exclusively
-                handles sexual abuse cases, our California law firm offers
-                experienced representation to obtain justice for sexual abuse
-                survivors, harassment, and discrimination.
-              </p>
-              <p className="pt-6 text-white font-georgia text-base font-normal leading-normal text-center">
-                Manly Stewart & Finaldi is currently investigating alleged
-                <span className="text-primary-orange">
-                  {" "}
-                  sexual abuse by Dr. Robert E. Anderson at the University of
-                  Michigan.
-                </span>
-                Contact our firm today if you were affected. . .
-              </p>
+            <div className="bg-[url('/assets/images/why_we_are/slider_first.webp')] bg-cover bg-no-repeat py-11 px-7 max-w-[799px]">
+              <div className="active_silde opacity-0">
+                <p className="text-center max-w-[459px] text-white mx-auto font-georgia-bold text-xl font-bold leading-normal mb-0">
+                  Nationally Recognized for Representing Sexual Abuse Survivors
+                </p>
+                <p className="pt-4 text-white font-georgia text-base font-normal leading-normal text-center">
+                  Manly, Stewart & Finaldi is regarded as America’s leading law
+                  firm for sexual abuse cases. Our founder and managing partner,
+                  <span className="text-primary-orange">
+                    attorney John C. Manly
+                  </span>
+                  , has been successfully representing sexual abuse victims for
+                  over 20 years. He has been included in Super Lawyers® and
+                  named to California’s Top 100 Attorneys by the Los Angeles
+                  Daily Journal
+                </p>
+                <p className="pt-6 text-white font-georgia text-base font-normal leading-normal text-center">
+                  Victim’s advocate and California sexual abuse lawyer John
+                  Manly understands that sexual abuse is an ongoing crisis and
+                  has devoted himself to becoming a national leader in the legal
+                  battle against these brutal crimes. As a firm that exclusively
+                  handles sexual abuse cases, our California law firm offers
+                  experienced representation to obtain justice for sexual abuse
+                  survivors, harassment, and discrimination.
+                </p>
+                <p className="pt-6 text-white font-georgia text-base font-normal leading-normal text-center">
+                  Manly Stewart & Finaldi is currently investigating alleged
+                  <span className="text-primary-orange">
+                    {" "}
+                    sexual abuse by Dr. Robert E. Anderson at the University of
+                    Michigan.
+                  </span>
+                  Contact our firm today if you were affected. . .
+                </p>
+              </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <Image
-              src="/assets/images/why_we_are/slider_third.webp"
-              width={799}
-              height={451}
-              alt="slider first image"
-              className=""
-            />
+            <div className="bg-[url('/assets/images/why_we_are/slider_second_bg.webp')] bg-cover bg-no-repeat py-11 px-7 max-w-[799px]">
+              <div className="active_silde opacity-0">
+                <p className="text-center max-w-[459px] text-white mx-auto font-georgia-bold text-xl font-bold leading-normal mb-0">
+                  Nationally Recognized for Representing Sexual Abuse Survivors
+                </p>
+                <p className="pt-4 text-white font-georgia text-base font-normal leading-normal text-center">
+                  Manly, Stewart & Finaldi is regarded as America’s leading law
+                  firm for sexual abuse cases. Our founder and managing partner,
+                  <span className="text-primary-orange">
+                    attorney John C. Manly
+                  </span>
+                  , has been successfully representing sexual abuse victims for
+                  over 20 years. He has been included in Super Lawyers® and
+                  named to California’s Top 100 Attorneys by the Los Angeles
+                  Daily Journal
+                </p>
+                <p className="pt-6 text-white font-georgia text-base font-normal leading-normal text-center">
+                  Victim’s advocate and California sexual abuse lawyer John
+                  Manly understands that sexual abuse is an ongoing crisis and
+                  has devoted himself to becoming a national leader in the legal
+                  battle against these brutal crimes. As a firm that exclusively
+                  handles sexual abuse cases, our California law firm offers
+                  experienced representation to obtain justice for sexual abuse
+                  survivors, harassment, and discrimination.
+                </p>
+                <p className="pt-6 text-white font-georgia text-base font-normal leading-normal text-center">
+                  Manly Stewart & Finaldi is currently investigating alleged
+                  <span className="text-primary-orange">
+                    {" "}
+                    sexual abuse by Dr. Robert E. Anderson at the University of
+                    Michigan.
+                  </span>
+                  Contact our firm today if you were affected. . .
+                </p>
+              </div>
+            </div>
           </SwiperSlide>
           <SwiperSlide>
-            <Image
-              src="/assets/images/why_we_are/slider_first.webp"
-              width={799}
-              height={451}
-              alt="slider first image"
-              className=""
-            />
+            <div className="bg-[url('/assets/images/why_we_are/slider_third.webp')] bg-cover bg-no-repeat py-11 px-7 max-w-[799px]">
+              <div className="active_silde opacity-0">
+                <p className="text-center max-w-[459px] text-white mx-auto font-georgia-bold text-xl font-bold leading-normal mb-0">
+                  Nationally Recognized for Representing Sexual Abuse Survivors
+                </p>
+                <p className="pt-4 text-white font-georgia text-base font-normal leading-normal text-center">
+                  Manly, Stewart & Finaldi is regarded as America’s leading law
+                  firm for sexual abuse cases. Our founder and managing partner,
+                  <span className="text-primary-orange">
+                    attorney John C. Manly
+                  </span>
+                  , has been successfully representing sexual abuse victims for
+                  over 20 years. He has been included in Super Lawyers® and
+                  named to California’s Top 100 Attorneys by the Los Angeles
+                  Daily Journal
+                </p>
+                <p className="pt-6 text-white font-georgia text-base font-normal leading-normal text-center">
+                  Victim’s advocate and California sexual abuse lawyer John
+                  Manly understands that sexual abuse is an ongoing crisis and
+                  has devoted himself to becoming a national leader in the legal
+                  battle against these brutal crimes. As a firm that exclusively
+                  handles sexual abuse cases, our California law firm offers
+                  experienced representation to obtain justice for sexual abuse
+                  survivors, harassment, and discrimination.
+                </p>
+                <p className="pt-6 text-white font-georgia text-base font-normal leading-normal text-center">
+                  Manly Stewart & Finaldi is currently investigating alleged
+                  <span className="text-primary-orange">
+                    {" "}
+                    sexual abuse by Dr. Robert E. Anderson at the University of
+                    Michigan.
+                  </span>
+                  Contact our firm today if you were affected. . .
+                </p>
+              </div>
+            </div>
           </SwiperSlide>
         </Swiper>
       </div>

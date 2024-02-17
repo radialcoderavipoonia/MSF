@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { navLink } from "./common/Helper";
-import { MenuIcon, SearchIcon } from "./common/Icons";
+import { Close, MenuIcon, SearchIcon } from "./common/Icons";
 import CustomSolidButton from "./common/CustomSolidButton";
 
 const NavBar = () => {
@@ -76,7 +76,7 @@ const NavBar = () => {
             className="text-black text-3xl absolute top-4 sm:end-10 end-5 z-40"
             onClick={sidebarHandler}
           >
-            <MenuIcon />
+            <Close /> 
           </button>
           {/* Mobile navigation links */}
           <ul className="flex flex-col w-full gap-6 justify-center items-center">
