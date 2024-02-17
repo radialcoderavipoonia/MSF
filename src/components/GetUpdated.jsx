@@ -71,7 +71,7 @@ const GetUpdated = () => {
           </div>
 
           <div className="max-w-[579px] mx-auto pt-7">
-            <p className="text-black text-xl font-georgia font-bold leading-normal pb-[10px] mb-0">
+            <p className="text-black text-xl font-georgia-bold font-bold leading-normal pb-[10px] mb-0">
               Institution Involved <span className="text-light_blue">*</span>
             </p>
             {Institution.map((value, index) => (
@@ -81,13 +81,13 @@ const GetUpdated = () => {
               >
                 <div className="flex gap-3 items-center md:w-1/5 sm:w-1/2">
                   <input type="radio" />
-                  <p className="text-onxy font-georgia text-base font-bold leading-normal">
+                  <p className="text-onxy font-georgia-bold text-base font-bold leading-normal">
                     {value.leftTitle}
                   </p>
                 </div>
                 <div className="flex gap-3 items-center sm:pt-0 pt-4 md:w-2/5 sm:w-1/2">
                   <input type="radio" />
-                  <p className="text-onxy font-georgia text-base font-bold leading-normal">
+                  <p className="text-onxy font-georgia-bold text-base font-bold leading-normal">
                     {value.rightTitle}
                   </p>
                 </div>
@@ -110,7 +110,7 @@ const GetUpdated = () => {
               placeholder="Reason for inquiry"
             ></textarea>
           </div>
-          <p className="pt-7 text-center text-primary-orange font-georgia text-xl font-bold leading-normal mb-0">
+          <p className="pt-7 text-center text-primary-orange font-georgia-bold text-xl font-bold leading-normal mb-0">
             Disclaimer*
           </p>
           <p className="pt-[10px] max-w-[608px] mx-auto text-onxy font-georgia text-base font-normal leading-normal opacity-80 text-center mb-0">

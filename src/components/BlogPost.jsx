@@ -56,12 +56,12 @@ const BlogPost = () => {
                     alt="blog post image"
                     className=" w-full md:h-[403px]"
                   />
-                  <p className="text-white font-georgia text-base font-bold leading-normal absolute top-[16px] left-[16px]">
+                  <p className="text-white font-georgia-bold text-base font-bold leading-normal absolute top-[16px] left-[16px]">
                     12 February 2024
                   </p>
                 </div>
                 <div className="pt-6 px-[18px] max-w-[338px]">
-                  <p className="text-onxy font-georgia text-xl font-bold leading-normal mb-0">
+                  <p className="text-onxy font-georgia-bold text-xl font-bold leading-normal mb-0">
                     At Manly Stewart & Finaldi, our attorneys routinely
                     represent sexual assault victims in high-profile national
                     cases.

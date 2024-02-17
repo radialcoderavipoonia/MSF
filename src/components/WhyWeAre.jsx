@@ -62,7 +62,7 @@ const WhyWeAre = () => {
         >
           <SwiperSlide>
             <div className="bg-[url('/assets/images/why_we_are/slider_second_bg.webp')] bg-cover bg-no-repeat py-11 px-7 max-w-[799px]">
-              <p className="text-center max-w-[459px] text-white mx-auto font-georgia text-xl font-bold leading-normal mb-0">
+              <p className="text-center max-w-[459px] text-white mx-auto font-georgia-bold text-xl font-bold leading-normal mb-0">
                 Nationally Recognized for Representing Sexual Abuse Survivors
               </p>
               <p className="pt-4 text-white font-georgia text-base font-normal leading-normal text-center">

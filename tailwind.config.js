@@ -27,6 +27,7 @@ module.exports = {
       },
       fontFamily: {
         georgia: ["georgia", "sans-serif"],
+        "georgia-bold": ["georgia-bold", "sans-serif"],
       },
       colors: {
         "white-smoke": "#F3F4F5",
@@ -34,8 +35,8 @@ module.exports = {
         "primary-blue": "#192335",
         "primary-orange": "#CD530F",
         harp: "#E7EFF4",
-        "gray_goose": "#CFCFCF",
-        "light_blue": "#9BBCD0",
+        gray_goose: "#CFCFCF",
+        light_blue: "#9BBCD0",
       },
       fontSize: {
         "40": "40px",

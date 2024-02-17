@@ -72,7 +72,7 @@ const WhyChooseUs = () => {
                         <p className="flex justify-center choose_svg">
                           {value.image}
                         </p>
-                        <p className="pt-[30px] group-hover:pt-5 max-w-[157px] mx-auto text-center group-hover:max-w-[unset] mb-0 text-onxy group-hover:text-white font-georgia text-xl font-bold leading-normal">
+                        <p className="pt-[30px] group-hover:pt-5 max-w-[157px] mx-auto text-center group-hover:max-w-[unset] mb-0 text-onxy group-hover:text-white font-georgia-bold text-xl font-bold leading-normal">
                           {value.title}
                         </p>
                         <p className="pt-6 text-white font-georgia text-base font-normal leading-normal mb-0 hidden group-hover:block ">

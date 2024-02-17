@@ -24,7 +24,7 @@ const GlobalSettlement = () => {
                   <p className="text-center text-primary-blue font-georgia text-6xl font-normal leading-110 mb-0 group-hover:text-white">
                     {value.title}
                   </p>
-                  <p className="text-center pt-[14px] text-onxy font-georgia text-xl font-bold leading-normal mb-0 group-hover:text-white ">
+                  <p className="text-center pt-[14px] text-onxy font-georgia-bold text-xl font-bold leading-normal mb-0 group-hover:text-white ">
                     {value.description}
                   </p>
                 </div>

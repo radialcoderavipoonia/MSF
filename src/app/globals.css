@@ -6,6 +6,10 @@
   font-family: georgia;
   src: url(../../public/assets/font/georgia/georgia.ttf);
 }
+@font-face {
+  font-family: "georgia-bold";
+  src: url(../../public/assets/font/georgia/georgiab.ttf);
+}
 .text_webkit {
   text-shadow: -3px -3px 0 #192335, 3px -3px 0 #192335, -3px 3px 0 #192335,
     3px 3px 0 #192335;
