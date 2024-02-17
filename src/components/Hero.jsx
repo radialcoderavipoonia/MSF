@@ -7,8 +7,8 @@ const Hero = () => {
     <>
       <div className="relative overflow-hidden">
         <div className="container xl:max-w-[1140px] mx-auto xl:px-0 px-3 lg:pt-[73px]">
-          <div className="flex lg:flex-row flex-col-reverse gap-5 ">
-            <div className="lg:w-[45%] flex lg:flex-col gap-4 lg:pb-0 pb-20 sm:flex-row items-center sm:items-stretch flex-col">
+          <div className="flex lg:flex-row flex-col-reverse md:gap-5 xl:gap-0 ">
+            <div className="lg:w-[45%] flex lg:flex-col gap-4 lg:pb-0 md:pb-20 sm:pb-16 pb-12 sm:flex-row items-center sm:items-stretch flex-col">
               <Image
                 src="/assets/images/hero/office.webp"
                 width={485}
@@ -43,7 +43,7 @@ const Hero = () => {
               </div>
             </div>
             <div className="lg:max-w-[663px] lg:w-[55%]">
-              <div className="xl:pt-[83px] pt-20 lg:translate-x-[-48px]">
+              <div className="xl:pt-[83px] md:pt-20 sm:pt-16 pt-12 xl:translate-x-[-58px] lg:translate-x-[-48px]">
                 <p className="text-onxy text-xl font-georgia lg:text-start text-center font-normal leading-120 tracking-[6px] mb-0">
                   Manly Stewart & Finaldi
                 </p>
@@ -54,22 +54,22 @@ const Hero = () => {
                   </span>
                 </h2>
               </div>
-              <p className="text-onxy text-base font-georgia lg:text-start text-center font-normal leading-normal lg:pt-12 pt-6">
+              <p className="text-onxy text-base font-georgia lg:text-start text-center font-normal leading-normal xl:pt-12 lg:pt-6 md:pt-5 pt-4">
                 At Manly Stewart, we understand the profound impact that sexual
                 abuse can have on survivors. We are dedicated to providing
                 compassionate and unwavering support to those who have endured
                 such traumatic experiences.
               </p>
-              <div className="lg:pt-12 pt-6 lg:pb-0 pb-12 lg:text-start text-center">
+              <div className="lg:pt-12 pt-6 lg:pb-0 md:pb-12 pb-8 lg:text-start text-center">
                 <CustomSolidButton content="Contact Now" />
               </div>
             </div>
           </div>
         </div>
-        <p className="text-primary-blue text-220 absolute left-[50px] bottom-[170px] font-georgia font-normal leading-110 opacity-[0.04] stewart_text_animation">
+        <p className="text-primary-blue text-220 pointer-events-none absolute left-[50px] bottom-[170px] font-georgia font-normal leading-110 opacity-[0.04] bg_text_left">
           Stewart
         </p>
-        <p className="absolute bottom-0 right-[144px] font-georgia text-200 leading-110 font-normal opacity-[0.05] text_webkit text-white finaldi_text_animation">
+        <p className="absolute bottom-0 right-[144px] pointer-events-none font-georgia text-200 leading-110 font-normal opacity-[0.05] text_webkit text-white bg_text_right">
           Finaldi
         </p>
       </div>

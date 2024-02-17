@@ -10,11 +10,14 @@
   font-family: "georgia-bold";
   src: url(../../public/assets/font/georgia/georgiab.ttf);
 }
+body , html{
+  overflow-x: hidden;
+}
 .text_webkit {
   text-shadow: -3px -3px 0 #192335, 3px -3px 0 #192335, -3px 3px 0 #192335,
     3px 3px 0 #192335;
 }
-.stewart_text_animation {
+.bg_text_left {
   animation: stewart 6s linear infinite;
 }
 @keyframes stewart {
@@ -25,7 +28,7 @@
     left: 100%;
   }
 }
-.finaldi_text_animation {
+.bg_text_right {
   animation: finaldi 6s linear infinite;
 }
 @keyframes finaldi {

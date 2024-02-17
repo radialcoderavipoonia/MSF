@@ -4,14 +4,14 @@ import Image from "next/image";
 
 const Victim = () => {
   return (
-      <div className="container xl:max-w-[1140px] mx-auto xl:px-0 px-3 py-12 relative ">
+      <div className="container xl:max-w-[1140px] mx-auto xl:px-0 px-3 pt-12 relative ">
       <div className="relative z-30">
-         <div className="flex lg:flex-row flex-col lg:items-end items-center gap-[68px]">
+         <div className="flex lg:flex-row flex-col lg:items-end items-center md:gap-[68px] sm:gap-12 gap-10">
           <div>
-            <p className="pt-1 text-primary-blue font-georgia lg:text-start text-center text-40 font-normal leading-120 mb-0">
+            <p className="text-primary-blue font-georgia lg:text-start text-center text-40 font-normal leading-120 mb-0">
               Were you a <span className="text-primary-orange">victim</span> of
             </p>
-            <p className="text-onxy lg:pt-7 pt-5 text-base font-georgia font-normal lg:text-start text-center leading-normal opacity-80 lg:max-w-[473px] mb-0 lg:pb-12 pb-6">
+            <p className="text-onxy xl:pt-7 lg:pt-6 md:pt-5 pt-4 text-base font-georgia font-normal lg:text-start text-center leading-normal opacity-80 lg:max-w-[473px] mb-0 lg:pb-12 pb-6">
               At Manly Stewart, we understand the profound impact that sexual
               abuse can have on survivors. We are dedicated to providing
               compassionate and unwavering support to those who have endured
@@ -25,7 +25,7 @@ const Victim = () => {
             Breaking Cases
           </p>
         </div>
-        <div className="max-w-[948px] ms-auto pt-8 flex md:flex-row flex-col gap-8">
+        <div className="max-w-[948px] ms-auto pt-8 flex md:flex-row flex-col md:gap-8">
           <div className="relative">
             <Image
               src="/assets/images/victim/juvenile_probation_camp_woman.webp"

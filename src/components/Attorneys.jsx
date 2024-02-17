@@ -4,7 +4,7 @@ import CustomSolidButton from "./common/CustomSolidButton";
 
 const Attorneys = () => {
   return (
-    <div className="container xl:max-w-[1140px] mx-auto xl:px-0 px-3 lg:py-[154px] md:py-20 sm:py-16 py-12">
+    <div className="container xl:max-w-[1140px] mx-auto xl:px-0 px-3 lg:pt-16 lg:pb-[154px] md:pb-20 sm:pb-16 pb-12">
       <div className="flex lg:flex-row flex-col-reverse gap-6">
         <Image
           src="/assets/images/attorneys/girl.webp"
@@ -25,13 +25,13 @@ const Attorneys = () => {
             <p className="text-onxy text-xl font-normal lg:text-start text-center leading-120 tracking-[6px] font-georgia mb-0">
               Attorneys
             </p>
-            <p className="pt-3 mb-0 pb-1 lg:text-start text-center text-primary-blue text-40 font-georgia font-normal leading-120">
+            <p className="pt-3 mb-0 lg:pb-1 lg:text-start text-center text-primary-blue text-40 font-georgia font-normal leading-120">
               Refer Your
               <span className="text-primary-orange">Sexual Abuse Case</span> to
               Us
             </p>
           </div>
-          <p className="lg:pt-14 pt-6 text-onxy text-base font-normal lg:text-start text-center leading-normal opacity-80 font-georgia lg:max-w-[578px]">
+          <p className="xl:pt-14 lg:pt-6 md:pt-5 pt-4 text-onxy text-base font-normal lg:text-start text-center leading-normal opacity-80 font-georgia lg:max-w-[578px]">
             Give us a call regarding the potential referral of your sexual abuse
             case. We will provide, free-of charge, a thoughtful and reasoned
             evaluation of your potential or pending case.
